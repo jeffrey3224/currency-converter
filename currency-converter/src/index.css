@@ -1,0 +1,89 @@
+* {
+  font-family: Helvetica;
+  color: white;
+}
+
+body {
+  background-image: url(https://media.istockphoto.com/id/826661764/video/falling-dollar-banknotes-in-4k-loopable.jpg?s=640x640&k=20&c=VkMeB7CyxyI96uGVnRuJLg5mI4AHlVVlc9DsT6jMA0Q=);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+  border-radius: 10px;
+  max-width: 600px;
+  min-width: 200px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(69, 101, 76, 0.85);
+  padding: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  margin: 0px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+input {
+  all: unset;
+  height: 25px;
+  padding-left: 10px;
+}
+
+select {
+  all: unset;
+  padding-top: 4px;
+  height: 20px;
+  padding-left: 10px;
+}
+
+.select-field{
+  vertical-align: middle;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+.total {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(60, 219, 60);
+}
+
+.reset {
+  cursor: pointer;
+  margin-top: 30px;
+  font-size: 16px;
+  height: 30px;
+  width: 30%;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(26, 57, 26);
+}
+
+.hidden{
+  display: none;
+}
+
+.screen-blackout {
+  display: block;
+  padding: 30px;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+}
